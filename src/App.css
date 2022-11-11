@@ -18,10 +18,9 @@
 }
 .App{
   width: 100%;
-  max-width: 1000px;
+  max-width: 55%;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
 }

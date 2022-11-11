@@ -24,14 +24,15 @@ function App() {
 
 
   return (
-    <div className="App">
-      <h1> CARVALHEIRA <span style={{color:'#D9298A'}}>NA LADEIRA</span></h1>
+    <>
+       <h1> CARVALHEIRA <span style={{color:'#D9298A'}}>NA LADEIRA</span></h1>
       <p>Viva uma experiênia única no carnaval de olinda! Há cinco<br></br>
       anos, o Carvalheira na Ladeira atrai gente de todo o Brasil ao<br></br>
        coração da folia de Pernambuco para cinco dias intensos de<br></br>
         multiculturalidade, diversão e momentos inesquecíveis.</p>
-        <br></br>
         <h1><span style={{color:'#D9298A'}}>MEMÓRIAS</span></h1>
+    <div className="App">
+   
 
         <motion.div ref={carousel} className="carousel" whileTap={{ cursor: "grabbing"}}>
           <motion.div className="inner"
@@ -51,6 +52,7 @@ function App() {
             </motion.div>
             </motion.div>
     </div>
+    </>
   )
 }
 
