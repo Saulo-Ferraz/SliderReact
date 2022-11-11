@@ -1,0 +1,26 @@
+.inner{
+  display: flex;
+}
+.item{
+  min-height: 200px;
+  min-width: 400px;
+  padding: 14px;
+}
+.item img{
+  width: 100%;
+  height: 90%;
+  border-radius: 12px;
+  pointer-events: none;
+}
+.carousel{
+  cursor: grab;
+  overflow: hidden;
+}
+.App{
+  width: 100%;
+  max-width: 55%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
